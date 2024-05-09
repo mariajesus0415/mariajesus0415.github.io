@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header {
+    height: 200px;
+    
+    display: flex;
+    
+    align-items: center;
+    
+}
+.logo {
+    width:120px;
+    height:70px;
+
+}
+.menu {
+    display: flex;
+    
+   
+
+}
+a:hover {
+    color: aqua;
+}
+li{
+    list-style: none;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+    padding: 10px;
+}
+
+main{
+    width: 80%;
+    background-color: black; 
+    height: 500%;
+    display: flex;
+    margin: 0 auto;
+}
+section {
+    background-image: url('moana2.jpeg');
+    background-size: 1600px;
+    width: 80%;
+    height: 640px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+    
+}
+aside {
+    margin-right: 100px;
+}
+.flex-item {
+    width: 200px;
+    
+}
+
+h1{
+    color: aliceblue;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.c1{
+    flex-grow: 1;
+}
+ .c2{
+    flex-grow: 2;
+ }
+  p{
+    color: aliceblue;
+
+  }
+
+  .poster{
+    width: 80%;
+    margin-left: 150px;
+    
+  }
